@@ -16,6 +16,8 @@ button {
 }
 .buttons {
     margin: 10px;
+    background-color: rgb(12, 139, 139);
+    color: aliceblue;
 }
 
 .animalImage {

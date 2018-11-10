@@ -1,5 +1,3 @@
-
-
 var animals = ["Birds", "Dogs", "Cats", "Fish"];
 
 animals.forEach(function addButton(animalName, index) {
@@ -9,20 +7,16 @@ animals.forEach(function addButton(animalName, index) {
 function enterAnimal() {
     // get the animal name from animal-input element
     var animalName = $("#animal-input").val().trim();
-
     // check if the input is empty
     if (animalName === "") {
         alert("Please enter correct animal name");
         return;
     }
-
     // check if this button already exists
     if (animals.includes(animalName)) {
         return;
     }
-
     animals.push(animalName);
-
     addAnimalButton(animalName);
 }
 
