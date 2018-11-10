@@ -1,0 +1,24 @@
+body {
+    background-image: url("..//images/tiny-squares.png");
+}
+button {
+    margin-top: 5px;
+}
+#text, .card-header {
+    align-content: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#animal-input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.buttons {
+    margin: 10px;
+}
+
+.animalImage {
+    float: left;
+    padding: 5px;
+}
